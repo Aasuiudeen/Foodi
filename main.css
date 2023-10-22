@@ -40,7 +40,7 @@
     @apply text-[24px] md:fixed text-primary cursor-pointer;
 }
 .aside{
-    @apply z-10 bg-white fixed top-0 translate-y-[-100%] h-[100vh] w-full transition-all duration-500; 
+    @apply z-10 bg-white fixed top-0 translate-y-[-100%] h-[100vh] w-[100vw] transition-all duration-500; 
 }
 
 .show-sidebar{
