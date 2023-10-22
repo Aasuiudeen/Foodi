@@ -40,11 +40,11 @@
     @apply text-[24px] md:fixed text-primary cursor-pointer;
 }
 .aside{
-    @apply z-10 bg-white fixed top-0 translate-x-[-100%] h-[100vh] w-full transition-all duration-500; 
+    @apply z-10 bg-white fixed top-0 translate-y-[-100%] h-[100vh] w-full transition-all duration-500; 
 }
 
 .show-sidebar{
-    @apply translate-x-0 md:hidden;
+    @apply translate-y-0 md:hidden;
 }
 .aside-header{
     @apply flex items-center justify-between px-[30px] py-[16px];
@@ -138,7 +138,7 @@
 }
 /* Special Card styling */
 .special-center{
-   
+   @apply overflow-hidden;
 }
 .special-card{
     @apply py-[48px] px-[32px] relative bg-white shadow-md  rounded-[24px] inline-block flex-grow;
