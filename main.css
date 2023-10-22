@@ -269,5 +269,5 @@
     @apply w-[74px] md:w-auto mb-[16px];
 }
 .footer-left-p{
-    @apply text-[#555] font-[500] text-[6px] md:text-[12px] w-[200px];
+    @apply text-[#555] font-[500] text-[16px] w-[200px];
 }
